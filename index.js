@@ -37,8 +37,8 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["🎧 Listening to Spotify", "🎮 Playing VALORANT"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusMessages = ["Vibe & Chill the best!", "My dev: dana2"];
+const statusTypes = [ 'dnd', 'dnd'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
@@ -93,7 +93,7 @@ login();
 /_______  /\___|_  /|___|  \___/\____|__  / 
         \/       \/                     \/  
                     
-DISCORD :  https://discord.com/invite/xQF9f9yUEM                   
+DISCORD : https://discord.gg/vibe-chill           
 YouTube : https://www.youtube.com/@GlaceYT                         
                                                                        
 ☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆
