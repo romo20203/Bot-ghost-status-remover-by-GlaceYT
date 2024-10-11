@@ -39,7 +39,7 @@ app.listen(port, () => {
 
 const statusMessages = ["My dev: dana2 👩‍💻", "Vibe & chill the best 😃"];
 const statusTypes = [ 'dnd', 'dnd'];
-let currentStatusIndex = 0;
+let currentStatusIndex = 1;
 let currentTypeIndex = 0;
 
 async function login() {
