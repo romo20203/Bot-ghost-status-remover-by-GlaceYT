@@ -39,7 +39,7 @@ app.listen(port, () => {
 
 const statusMessages = ["My dev: dana2 👩‍💻", "Vibe & chill the best 😃"];
 const statusTypes = [ 'dnd', 'dnd'];
-let currentStatusIndex = 1;
+let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
 async function login() {
@@ -59,7 +59,7 @@ function updateStatus() {
   const currentType = statusTypes[currentTypeIndex];
   client.user.setPresence({
     activities: [{ name: currentStatus, type: ActivityType.Custom }],
-    status: currentType,
+    status: "dnd",
   });
   console.log('\x1b[33m[ STATUS ]\x1b[0m', `Updated status to: ${currentStatus} (${currentType})`);
   currentStatusIndex = (currentStatusIndex + 1) % statusMessages.length;
